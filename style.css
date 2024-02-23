@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+  }/*div se ajusta ao conteúdo*/
+  body{ background-color:#D9BEA7}
+  .topo{
+     background-color: #9933cc;
+     color: #ffffff;
+     font-weight: bolder;
+    text-align: center;
+    padding: 15px;
+  }
+  .menu {
+    float: left;
+    width: 20%;
+    padding-top
+  }
+   .menu ul {
+          list-style-type: none;
+          margin: 1;
+          padding:1;
+        }  
+        .menu ul li {
+          padding: 8px;
+          margin-bottom: 7px;
+          background-color: #33b5e5;     
+          box-shadow: 3px 3px 5px rgba(256,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }  
+  a{
+       color: #ffffff;
+      text-decoration:none;
+  }
+        .menu li:hover {
+          background-color: #E8E7EC; cursor: pointer;
+        }
+  .meio {
+    float: left;
+    width: 60%;
+    /*background-color:yellow;*/
+    padding: 10px;
+    color: #fff;
+  }
+  .meio h2{
+    text-align: center;
+  }
+  .direita {
+    float: left;
+    width: 20%;
+    background-color: #A66226
+      ;
+    color: #E8E7EC; 
+    padding: 15px;
+  }
+  .rodape {
+    float: left;
+    width: 100%;
+  }
+  @media only screen and (max-width:800px) {
+    /* Para tablets: */
+    .meio {
+      width: 90%;
+    }
+    .direita {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width:500px) {
+    /* Para mobile cel: */
+    .menu, .meio, .direita, .rodape {
+      width: 100%;
+    }
+  }
